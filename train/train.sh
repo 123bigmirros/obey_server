@@ -1,4 +1,4 @@
-model_name_or_path="/root/.cache/modelscope/hub/qwen/Qwen1___5-7B-Chat"   # LLM底座模型路径，或者是huggingface hub上的模型名称
+model_name_or_path=""   # LLM底座模型路径，或者是huggingface hub上的模型名称
 output_dir="/root/autodl-tmp/output"  # 填入用来存储模型的路径
 dataset_name="my_dataset" # dataset_info配置的数据集名称
 MASTER_PORT=$(shuf -n 1 -i 10000-65535)
